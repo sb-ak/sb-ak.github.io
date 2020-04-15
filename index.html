@@ -62,6 +62,10 @@
     font-size: x-small;
 }
 
+.btn-lg  {
+    text-align: left;
+}
+
 .boxShadow { width: 90%; max-width: 550px; margin: 1em auto; padding: 1em; box-shadow: 1px 1px 1px 1px #575555 inset; }
 
        @media screen and (max-width: 1080px) {
@@ -87,10 +91,11 @@
 
 }
 
+
 .modal-title
 {
     width: 100%;
-    border: none;
+    border: none;s
     font-size: x-small;
     font-size: 4vw; 
     font-weight: bold; 
@@ -149,225 +154,110 @@ margin: 0px;
 </head>
 
 <body>
-    <ul class="nav nav-pills">
-        <li class="nav-item dropdown ddm">
-            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Песни
-            </a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw00" href="#">Пидорасы одиночества1</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw01" href="#">Летела речка</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw03" href="#">Рагнарек</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw04" href="#">Свингер-пати</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw05" href="#">Сталинский костюм</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw06" href="#">Ледокол Красин</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw07" href="#">Советская</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw08" href="#">Юрка</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw09" href="#">Ростропович</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw10" href="#">Хуевая баба</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw11" href="#">Отчим</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw12" href="#">Мама-Гуантанама</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw13" href="#">Трава</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw14" href="#">Ласточка</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw15" href="#">Я умею звонить</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw16" href="#">Гуманитарная</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw17" href="#">В светлом ахуе</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw18" href="#">Бескозырка</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw19" href="#">Похороны</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw20" href="#">Ноутбук</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw21" href="#">Матильда</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw22" href="#">Горбачев</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw23" href="#">За окном горит фонарь</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw24" href="#">Маленький автобус</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw25" href="#">Оркская</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw26" href="#">Пассионарная</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw27" href="#">Сатурн</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw28" href="#">Сколько на свете</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw29" href="#">Зона</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw30" href="#">Шаманская</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw31" href="#">Школьная</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw32" href="#">Лучший</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw33" href="#">Проси</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw34" href="#">Буккакэ</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw35" href="#">Нано-жизнь</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw36" href="#">Добрый маньях Тихон</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw37" href="#">Песня о медведях</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw38" href="#">Самогон</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw39" href="#">Некрономикон</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw40" href="#">Он меня любил, любила я его</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw41" href="#">Полюбил</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw42" href="#">Офисная</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw43" href="#">Мы едем… jedem das Seine…</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw44" href="#">Сатанистская</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw45" href="#">Одноместное сердце</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw46" href="#">Женщина-мудак</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw47" href="#">Отчего ты грустна, моя милая</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw48" href="#">Люберецкие карлицы</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw49" href="#">Казацкая</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw50" href="#">Гашиш и дети</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw51" href="#">Гитлер</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw52" href="#">Холодильник-холодец</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw53" href="#">Тюремная</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw54" href="#">2 грамма гаша</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw55" href="#">Вторая группа</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw56" href="#">Зла не хватает</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw57" href="#">Акуджава</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw58" href="#">Матрица</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw59" href="#">Ты мне всралась</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw60" href="#">Люда</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw61" href="#">Воин господень</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw62" href="#">Девушка с Проспекта Мира</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw63" href="#">Цаца</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw64" href="#">Напишу</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw65" href="#">Раппопопорт</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw66" href="#">Дорога</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw67" href="#">Запощу</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw68" href="#">Я с тобою</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw69" href="#">Там где ветки</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw70" href="#">Анна</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw71" href="#">Песня про жиголо</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw72" href="#">Черный полковник</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw73" href="#">Walking Dead</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw74" href="#">Прошедшее время</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw75" href="#">Дольщик</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw76" href="#">Лучше, чем ты</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw77" href="#">Рифеншталь</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw78" href="#">Отель "Лето"</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw80" href="#">Мерч</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw81" href="#">Туристическая</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw83" href="#">Не додумалась встать на колени</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw84" href="#">Чертово колесо</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw85" href="#">Без ансамбля</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw86" href="#">Тональ и Нагваль</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw87" href="#">Кузина-смерть</a>
-            </div>
-        </li>
-        <li class="nav-item ddm">
-            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Каверы
-            </a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw79" href="#">Этот большой мир (Ночь прошла)</a>
-                <a class="dropdown-item" data-toggle="modal" data-target=".mw82" href="#">Северный охотник</a>
-            </div>
-        </li>
+    <div class="container-fluid">
 
-        <li class="nav-item ddm">
-            <a class="btn btn-secondary" role="button" href="#" data-toggle="modal" data-target=".about">О сборнике</a>
-        </li>
-        </li>
-    </ul>
+        <button type="button" class="btn btn-secondary btn-lg btn-block"  
+        data-toggle="modal" data-target=".mw01" >Аквариум - Я не могу больше пить</button>        
 
-    <div class="caution-container">
-        <div class="row caution">
-            <div class="col-md-auto caution-circle">
-                <p class="caution-circle-text">18+</p>
-            </div>
-        </div>
-        <div class="row caution">
-            <div class="col-md-auto">
-                <p class="caution-lb-text">СОДЕРЖИТ<br>НЕЦЕНЗУРНУЮ<br>БРАНЬ</p>
-            </div>
-        </div>
+        <button type="button" class="btn btn-secondary btn-lg btn-block"  
+        data-toggle="modal" data-target=".mw79" >Аквариум - 25 к 10</button>    
+        
+        <button type="button" class="btn btn-secondary btn-lg btn-block"  
+        data-toggle="modal" data-target=".mw79" >Аквариум - Вечерний М</button>    
+        
+        <button type="button" class="btn btn-secondary btn-lg btn-block"  
+        data-toggle="modal" data-target=".mw79" >Аквариум - Время наебениться</button>    
+        
+        <button type="button" class="btn btn-secondary btn-lg btn-block"  
+        data-toggle="modal" data-target=".mw79" >Аквариум - Не могу оторвать глаз от тебя</button>            
+      
+        <button type="button" class="btn btn-secondary btn-lg btn-block"  
+        data-toggle="modal" data-target=".mw79" >Аквариум - Нас с тобою наебали</button>        
 
-    </div>
+        <button type="button" class="btn btn-secondary btn-lg btn-block"  
+        data-toggle="modal" data-target=".mw79" >Аквариум - Я хочу быть с тобой</button>    
+        
+        <button type="button" class="btn btn-secondary btn-lg btn-block"  
+        data-toggle="modal" data-target=".mw79" >Этот большой мир</button>    
+        
+        <button type="button" class="btn btn-secondary btn-lg btn-block"  
+        data-toggle="modal" data-target=".mw79" >Этот большой мир</button>    
+        
+         <button type="button" class="btn btn-secondary btn-lg btn-block"  
+        data-toggle="modal" data-target=".mw79" >Этот большой мир</button>    
+        
+        <button type="button" class="btn btn-secondary btn-lg btn-block"  
+        data-toggle="modal" data-target=".mw79" >Этот большой мир</button>    
+        
+        <button type="button" class="btn btn-secondary btn-lg btn-block"  
+        data-toggle="modal" data-target=".mw79" >Этот большой мир</button>    
+        
+        
+    </div>    
 
-    <div class="modal fade mw87" tabindex="86" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal fade mw01" tabindex="0" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Кузина-смерть</h5>
+                    <h5 class="modal-title">Мама я не могу больше пить</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <table class="song">
-                    <tr><td>[6/8] C Cmaj9/G Am</td><td>Взбешённый идиот в тайге ума</td></tr>
-                    <tr><td>G6 C G</td><td>С размаху хлопнул заячьим треухом оземь,</td></tr>
-                    <tr><td></td><td>И с ближних крыш обрушилась зима,</td></tr>
-                    <tr><td></td><td>Похоронив хроническую осень.</td></tr>
-                    <tr><td></td><td>Но спохватились земские врачи,</td></tr>
-                    <tr><td></td><td>И понесли в народ свои вакцины гриппа</td></tr>
-                    <tr><td></td><td>И парамедицинские ключи</td></tr>
-                    <tr><td></td><td>К палатам летаргического крипа.</td></tr>
-                    <tr><td></td><td><br></td></tr>
-                    <tr><td>C G Am G</td><td>«Друга нашёл - нахуй пошёл!»,</td></tr>
-                    <tr><td>A#dim7 A7 D</td><td>Присказка - это не сказка.</td></tr>
-                    <tr><td>Dm-Dsus2 A#7b5-A7</td><td>Скорбная маска.</td></tr>
-                    <tr><td>Dm-Dsus2 A#7b5-A7</td><td>Аяхуаска</td></tr>
-                    <tr><td>Dm-Dsus2 A#7b5-A7 D</td><td>Пьётся зимой хорошо.</td></tr>
-                    <tr><td>Dm G</td><td><br></td></tr>
-                    <tr><td></td><td>А в ментальной тайге всё беснуется мой визави,</td></tr>
-                    <tr><td></td><td>Меховой идиот.</td></tr>
-                    <tr><td></td><td>А она ему шепчет с вершины своей нелюбви:</td></tr>
-                    <tr><td></td><td>«Потерпи, всё пройдёт».</td></tr>
-                    <tr><td>C Am7(V) Dm6</td><td>А оно всё болит… И с припасами как-то не густо ж,</td></tr>
-                    <tr><td>Dm G C E7</td><td>А оно всё щемит… И в хозяйстве кромешный бардак…</td></tr>
-                    <tr><td>Am Dm6</td><td>Моё сердце - окошечко с видом на пустошь,</td></tr>
-                    <tr><td>C G C</td><td>На которой однажды откроют Макдак.</td></tr>
-                    <tr><td>G</td><td><br></td></tr>
-                    <tr><td></td><td>Шахиды повзрослели навсегда,</td></tr>
-                    <tr><td></td><td>Поразлетелись кто куда по белу свету,</td></tr>
-                    <tr><td></td><td>И понесли в иные города</td></tr>
-                    <tr><td></td><td>Свою религиозную вендетту.</td></tr>
-                    <tr><td></td><td>Мы тоже затянули пояса</td></tr>
-                    <tr><td></td><td>И песни затянули строевые. Всюду</td></tr>
-                    <tr><td></td><td>Подруг несутся злые голоса:</td></tr>
-                    <tr><td></td><td>- Да чтоб тебя разорвало, паскуду!</td></tr>
-                    <tr><td></td><td><br></td></tr>
-                    <tr><td></td><td>«Любишь - женись! Нет - отъебись!»</td></tr>
-                    <tr><td></td><td>Это фактически притча.</td></tr>
-                    <tr><td></td><td>Грустная фича,</td></tr>
-                    <tr><td></td><td>С долею китча -</td></tr>
-                    <tr><td></td><td>Обыкновенная жизнь.</td></tr>
-                    <tr><td></td><td><br></td></tr>
-                    <tr><td></td><td>А в ментальной тайге перед бредящим что-то TV</td></tr>
-                    <tr><td></td><td>Задремал идиот,</td></tr>
-                    <tr><td></td><td>Тот, которому шепчут с вершины своей нелюбви:</td></tr>
-                    <tr><td></td><td>«Потерпи, всё пройдёт».</td></tr>
-                    <tr><td></td><td>То ли ей невдомёк, что чужую судьбу исковеркав,</td></tr>
-                    <tr><td></td><td>На перилах мостка не защёлкнуть потешный замок.</td></tr>
-                    <tr><td></td><td>Моё сердце - окошечко с видом на церковь,</td></tr>
-                    <tr><td></td><td>Из которой струится весёлый дымок.</td></tr>
-                    <tr><td></td><td><br></td></tr>
-                    <tr><td></td><td>А женщины всё в рот календари</td></tr>
-                    <tr><td></td><td>Кладут, как будто это дармовая пища.</td></tr>
-                    <tr><td></td><td>И рыщут от заката до зари</td></tr>
-                    <tr><td></td><td>Но от добра добра едва ли сыщут.</td></tr>
-                    <tr><td></td><td>Сестра мне жизнь, кузина - смерть моя. С</td></tr>
-                    <tr><td></td><td>Причудами игривая кузина. Кстати</td></tr>
-                    <tr><td></td><td>Мы с ней договорились не таясь,</td></tr>
-                    <tr><td></td><td>Всенепременно свидеться в кровати.</td></tr>
-                    <tr><td></td><td><br></td></tr>
-                    <tr><td>C G Am G</td><td>«Если молчишь, в лоне торчишь!»</td></tr>
-                    <tr><td>A#dim7 A7 D</td><td>Лоно - не лучшее место.</td></tr>
-                    <tr><td>Dm-Dsus2 A#7b5-A7</td><td>Дочь и невеста,</td></tr>
-                    <tr><td>Dm-Dsus2 A#7b5-A7</td><td>Сладость инцеста,</td></tr>
-                    <tr><td>Dm-Dsus2 A#7b5-A7 F</td><td>Ноуменальная тишь.</td></tr>
-                    <tr><td>F A#</td><td>Инфернальная тишь.</td></tr>
-                    <tr><td>Dm E7-A#7b5 D</td><td>Феноменальная тишь.</td></tr>
-                    <tr><td></td><td>
-                    <br>А в ментальной тайге менингит, и цинга, и ОРВИ.
-                    <br>Околел идиот.
-                    <br>И кому ты прошепчешь с вершины своей нелюбви:
-                    <br>«Потерпи, всё пройдёт».
-                    <br>Ведь оно не пройдёт, как не сходит с забора похабная 
-                    <br>роспись.
-                    <br>Ну, а если сойдёт, то заменится вскоре другой…
-                    <br>Моё сердце - окошечко с видом на хоспис,
-                    <br>Из которого кто-то мне машет рукой.
+                    <tr><td>Am  Em</td><td>Мама, я не могу больше пить.</td></tr>
+                    <tr><td>C G</td><td>Мама, я не могу больше пить.</td></tr>
+                    <tr><td>Dm-Dm/C-Dm/B Am</td><td>Мама, вылей все, что стоит на столе -</td></tr>
+                    <tr><td>Asus2 F# Em</td><td>Я не могу больше пить.</td></tr>
+                    <tr><td>Em Em-Em#5-Em </td><td><br></td></tr>
+                    <tr><td>Am  Em</td><td>На мне железный аркан,</td></tr>
+                    <tr><td>C G</td><td>Я крещусь, когда я вижу стакан.</td></tr>
+                    <tr><td>Dm-Dm/C-Dm/B Am</td><td>Я не в силах поддерживать этот обман.</td></tr>
+                    <tr><td>F# Em Am</td><td>Мама, я не могу больше пить.
+                    <br>
+                    <br>Патриоты скажут, что я дал слабину,
+                    <br>Практически продал родную страну.
+                    <br>Им легко, а я иду ко дну,
+                    <br>Я гляжу, как истончается нить.
+                    <br>
+                    <br>Я не валял дурака,
+                    <br>Тридцать пять лет от звонка до звонка,
+                    <br>Но мне не вытравить из себя чужака.
+                    <br>Мама, я не могу больше пить.
+                    <br>
+                    <br>Мама, я не могу больше пить.
+                    <br>Мама, я не могу больше пить.
+                    <br>Мама, позвони всем моим друзьям,
+                    <br>Скажи - я не могу больше пить.
+                    <br>
+                    <br>Вот она - пропасть во ржи,
+                    <br>Под босыми ногами ножи.
+                    <br>Как достало жить не по лжи -
+                    <br>Я не могу больше пить.
+                    <br>
+                    <br>Скажи моим братьям, что теперь я большой,
+                    <br>Скажи сестре, что я болен душой.
+                    <br>Я мог бы быть обычным человеком,
+                    <br>Но я упустил эту роль.
+                    <br>
+                    <br>Зашел в бесконечный лес,
+                    <br>Гляжу вверх, но я не вижу небес.
+                    <br>Скажи в церкви, что во всех дверях стоит бес -
+                    <br>Демон Алкоголь.
+                    <br>
+                    <br>Мама, я не могу больше пить.
+                    <br>Мама, я не могу больше пить.
+                    <br>Мама, вылей все, что стоит на столе -
+                    <br>Я не могу больше пить.
+                    <br>
+                    <br>На мне железный аркан,
+                    <br>Я крещусь когда я вижу стакан,
+                    <br>Я не в силах поддерживать этот обман.
+                    <br>Мама, я не могу больше пить.
+                    <br>
                     <br><br></td></tr></table>
                     <li class="dropdown-divider"></li>
-                    <p class="comment-text">
-                        <br>Аппликатуры:
-                        <br>Cmaj9/G (x10023)
-                        <br>G6 (030023)
-                        <br>Dsus2 (0320xx)
-                        <br>A#dim7 (02021x)
-                        <br>A#7b5 (x3121x)
-                        <br>Am7(V) (855575)
+                    <p class="comment-text"> Каподастр 2 лад.
                     </p>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>

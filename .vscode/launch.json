@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "C:/Users/admin/Documents/GitHub/songbook.github.io/index.html",
+            "url": "C:/Users/admin/Documents/GitHub/sb-ak.github.io/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
