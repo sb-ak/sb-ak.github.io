@@ -11,42 +11,15 @@
     -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <title>Елизаров</title>
+    <title>Песенник</title>
 
     <style>
 
-.caution-container {
-  position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%,-50%);
+.a-song {
+ margin: 10px;
+
 }
 
-
-        .caution-circle {
-  position: relative;
-  margin: 15px 0px 0px 35px;
-  width: 80px;
-  height: 80px;
-  border-radius: 80px;
-  border:2px solid gainsboro;
-}
-
-.caution-circle-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: gainsboro;
-  font-size: xx-large;
-}
-
-.caution-lb-text {
-    margin-top: 5px;
-    font-size: x-large;
-    color: gainsboro;
-    white-space: normal;   
-}
 
 .about-text {
     margin: 5px 5px 5px 5px;
@@ -95,7 +68,7 @@
 .modal-title
 {
     width: 100%;
-    border: none;s
+    border: none;
     font-size: x-small;
     font-size: 4vw; 
     font-weight: bold; 
@@ -154,7 +127,12 @@ margin: 0px;
 </head>
 
 <body>
- <a href="#" data-toggle="modal" data-target=".mw01">Аквариум - Я не могу больше пить</a>   
+ <a href="#" class="a-song" data-toggle="modal" data-target=".mw01">Аквариум - Я не могу больше пить</a> 
+ 
+   <button type="button" class="btn btn-secondary btn-lg btn-block"  
+    data-toggle="modal" data-target=".mw01" >Аквариум - Я не могу больше пить</button>        
+  
+
     <div class="modal fade mw01" tabindex="0" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
